@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 40px 15px;
+  }
+  
+
+  .container {
+    background-color: #fff;
+    max-width: 480px;
+    margin: auto;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #4a90e2;
+  }
+  
+  /* Título */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color: #444;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  button[type="button"]:first-of-type {
+    background-color: #4a90e2;
+    color: #fff;
+  }
+  
+  button[type="button"]:first-of-type:hover {
+    background-color: #357abd;
+  }
+  
+
+  #preguntasBtn {
+    background-color: #7ed6df;
+    color: #003f5c;
+  }
+  
+  #preguntasBtn:hover {
+    background-color: #63cdda;
+  }
+  
+  #respuestas {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e3f2fd;
+    border-left: 4px solid #4a90e2;
+    border-radius: 6px;
+    color: #333;
+  }
+  
